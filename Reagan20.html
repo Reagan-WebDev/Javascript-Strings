@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Family</title>
+</head>
+<body>
+    <h1>Sort method</h1>
+    <button onclick="myFamily()">Click Me!</button>
+    <p id="demo1"></p>
+    <p><strong>Arranged in Alphabetical order: </strong></p>
+    <p id="demo2"></p>
+    <script>
+        const family = ["Reagan", "Chris", "Richard", "Adrian", "Mitchell", "Rose", "Thomas"];
+        document.getElementById("demo1").innerHTML = family;
+        function myFamily() {
+        const family = ["Reagan", "Chris", "Richard", "Adrian", "Mitchell", "Rose", "Thomas"];
+        family.sort();
+        document.getElementById("demo2").innerHTML = family;
+        }
+    </script>
+</body>
+</html>
