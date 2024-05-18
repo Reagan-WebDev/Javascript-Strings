@@ -1,5 +1,5 @@
 body {
-    background: radial-gradient(red, orange, yellow, green, blue, indigo, violet );
+    background-color: lightblue;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

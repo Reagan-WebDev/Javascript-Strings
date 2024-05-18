@@ -1,0 +1,30 @@
+body {
+    background-color: lightblue;
+}
+.myH1 {
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px black;
+    text-decoration: underline overline;
+}
+.myText {
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.mySubmit {
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    font-weight: bold;
+    box-shadow: 2px 2px 4px black;
+    cursor: pointer;
+    margin-left: 70px;
+}
+.myTextArea {
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px black;
+    text-align: left;
+    max-width: 250px;
+    padding: 10px;
+}

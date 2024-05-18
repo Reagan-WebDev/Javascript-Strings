@@ -1,0 +1,33 @@
+body {
+    background-color: blueviolet;
+}
+.myH1 {
+    text-transform: uppercase;
+    text-decoration: overline underline;
+    text-shadow: 2px 2px 4px white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.mySubmit {
+    border: 2px solid white;
+    border-radius: 8px;
+    max-width: fit-content;
+    padding: 10px;
+    box-shadow: 2px 2px 5px black;
+    position: relative;
+    margin-left: 500px;
+}
+.myLabel {
+    font-weight: bold;
+    cursor: pointer;
+}
+#myInput {
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+.myGetAge {
+    border-radius: 5px;
+    background-color: grey;
+    margin-left: 220px;
+    cursor: pointer;
+}
