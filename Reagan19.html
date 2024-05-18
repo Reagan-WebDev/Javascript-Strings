@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Codes</title>
+</head>
+<body>
+    <h1>includes method</h1>
+    <button onclick="myCars()">Click Me!</button>
+    <p id="demo"></p>
+    <script>
+        const cars = ["Honda", "Nissan", "Toyota"];
+        function myCars() {
+            document.getElementById("demo").innerHTML = cars.includes("Daihatsu");
+        }
+    </script>
+</body>
+</html>
