@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+</head>
+<body>
+    <h1>Random Sorting</h1>
+    <button onclick="myFunction()">Sort Randomly</button>
+    <p id="demo"></p>
+    <script>
+        const points = [20,50,43,2,67,89,67,29,31,30,35,30];
+        document.getElementById("demo").innerHTML = points;
+
+        function myFunction() {
+            points.sort(function(a, b){return 0.5 - Math.random()});
+            document.getElementById("demo").innerHTML = points;
+        }
+    </script>
+</body>
+</html>
